@@ -11,7 +11,7 @@ main() {
 
 
   //Creates a map where keys are from the set and values are the numbers multiplied by 3.
-  Map map = {for (var num in set) num: num * 3};
+  Map map = {for (int num in set) num: num * 3};
 
   //Prints the map.
   print("Map: $map");
